@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="osSete.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> <h1>Os Sete Anões</h1> </header>
+    <h3>Digite um número entre 8 e 20, alguns números são uma chave mágica para encontrar os Sete Anões, caso 
+        escolha um número que não seja a chave, você não encontrará os Sete.
+    </h3>
+
+    <section id="sec1">
+        <h2>Digite uma Chave</h2>
+        <label for="chave">Digite um número chave:</label>
+        <input type="number" id="chave" placeholder="Digite a chave mágica">
+        <button id="butao" onclick="encontrar()">Buscar Anões</button>
+    </section>
+    <section id="sec2">
+        <img src="./floresta.jpg" alt="im" id="imagemInicial">
+    </section>
+    <script src="./osSete.js"></script>
+</body>
+</html>

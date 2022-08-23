@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    background: rgb(153, 201, 81);
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+img{
+    width: 500px;
+    height: 450px;
+}
+
+section{
+    box-shadow: 15px 15px 8px maroon;
+}
