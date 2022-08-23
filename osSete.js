@@ -1,5 +1,4 @@
 var inpute = document.getElementById('chave')
-var valorInpute = Number(inpute.value)
 var aImagem = document.getElementById('imagemInicial')
 var lista = [8, 12, 15, 18]
 
